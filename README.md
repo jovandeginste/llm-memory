@@ -52,9 +52,9 @@ Do not run the CLI and the server against the same database at the same time.
 Pass configuration through `-e`, for example
 `-e LLM_MEMORY_EMBEDDER=hash` or `-e LLM_MEMORY_OLLAMA_URL=http://ollama:11434`.
 
-The `Build` GitHub Actions workflow tests the code, builds a multi-arch image,
-and pushes it to `ghcr.io/<owner>/<repo>` on pushes and tags. Pull requests
-only build the image.
+The `Build` GitHub Actions workflow tests the code, builds the image, and
+pushes it to `ghcr.io/<owner>/<repo>` on pushes and tags. Pull requests only
+build the image.
 
 ## Quick start
 
