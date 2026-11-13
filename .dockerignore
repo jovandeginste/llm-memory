@@ -1,0 +1,10 @@
+.git
+.github
+.opencode
+bin
+*.db
+*.db-wal
+*.db-shm
+CONTEXT.md
+Dockerfile
+.dockerignore
